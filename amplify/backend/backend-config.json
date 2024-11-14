@@ -1,0 +1,43 @@
+{
+  "api": {
+    "v1": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "diagv1"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "diagv1": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_diagv1_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "diagv1"
+        }
+      ]
+    },
+    "AMPLIFY_function_diagv1_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "diagv1"
+        }
+      ]
+    }
+  }
+}

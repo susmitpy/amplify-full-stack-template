@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-diag-dev-58782-authRole",
+      "UnauthRoleArn": "arn:aws:iam::565010580380:role/amplify-diag-dev-58782-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::565010580380:role/amplify-diag-dev-58782-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-diag-dev-58782-deployment",
+      "UnauthRoleName": "amplify-diag-dev-58782-unauthRole",
+      "StackName": "amplify-diag-dev-58782",
+      "StackId": "arn:aws:cloudformation:ap-south-1:565010580380:stack/amplify-diag-dev-58782/75c2e740-3de4-11ef-8eeb-02aefa75a9fb",
+      "AmplifyAppId": "d1v9ukpzoxsljw"
+    },
+    "categories": {
+      "function": {
+        "diagv1": {
+          "deploymentBucketName": "amplify-diag-dev-58782-deployment",
+          "s3Key": "amplify-builds/diagv1-366b77713869366d4a70-build.zip"
+        }
+      },
+      "api": {
+        "v1": {}
+      }
+    }
+  }
+}
